@@ -41,7 +41,7 @@ function App(props) {
   const [query, setQuery] = useState('eks');
   const [search, setSearch] = useState('eks');
 
-  var url = `http://k8s-eksdemogroup-e0353f9ab7-139868593.eu-west-3.elb.amazonaws.com/contents/${search}`
+  var url = `http://k8s-eksdemogroup-e0353f9ab7-1700243128.eu-west-3.elb.amazonaws.com/contents/${search}`
 
   useEffect(() => {
     const fetchData = async () => {
@@ -64,7 +64,7 @@ function App(props) {
             align="center"
             className={classes.title}
           >
-            EKS DEMO Blog version 2 (Andras Nagy)
+            EKS DEMO Blog version 3 (Andras Nagy)
           </Typography>
           {new Date().toLocaleTimeString()}
         </Toolbar>
